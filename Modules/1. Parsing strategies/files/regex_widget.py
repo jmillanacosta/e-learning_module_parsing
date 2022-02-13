@@ -36,14 +36,16 @@ def regex_widget(precedes, match, follows):
     follows: pattern succeeding the match
     """
     path = "files/P3_argonaut.gb"
-    precedes = "(?<=" + precedes + ")"
-    follows = "(?=" + follows + ")"
+    if precedes != "":
+        precedes = "(?<=" + precedes + ")"
+    if follows != "":
+        follows = "(?=" + follows + ")"
     pattern = precedes + match + follows
     valid = False
     if pattern != "":
         try:
-            re.compile(pattern)
-            result = parse_regex(path, pattern)
+            re.compile("%s" % pattern)
+            result = parse_regex("%s" % path, pattern)
             valid = True
         except re.error:
             pass
