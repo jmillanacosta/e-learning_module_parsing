@@ -24,11 +24,17 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 - Worksheet
 	- Read and shift-enter materials/ Examples and counter-examples.
 	<img src="files/read_material.png" width = "250">
+	
 	- Fill in the blanks, run and reflect
+	<img src="files/fill_material.png" width = "250">
 	
 	- Tweak parameters, run and reflect
+	<img src="files/tweak.png" width = "250">
 	
 	- Simple widgets that help reduce the complexity of a concept
+	Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
+	
+	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "250"></a>
 	
 - Notebook as a dashboard/app
 	- Standalone dashboards with a focus on tweaking and visualizing some model
