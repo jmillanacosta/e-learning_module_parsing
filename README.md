@@ -1,6 +1,6 @@
 # E-learning module development
 
-Example module: [!Parsing strategies](Modules/1_Parsing strategies/Parsing_strategies.ipynb)
+Example module: <a href="https://github.com/jmillanacosta/e-learning_module_parsing/blob/main/Modules/1_Parsing_strategies/Parsing_strategies.ipynb">Parsing strategies</a>
 
 ## Goals of a module
 - Guide the students through an assignment preparation/course content.
