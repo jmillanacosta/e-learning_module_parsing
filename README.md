@@ -32,14 +32,14 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 	<img src="files/tweak.png" width = "250">
 	
 	- Simple widgets that help reduce the complexity of a concept
-	-<img src="files/widget.png" width = "350">
+	<img src="files/widget.png" width = "250">
 
 	
 - Notebook as a dashboard/app
 	- Standalone dashboards with a focus on tweaking and visualizing some model
 	- Interactive modules students can use to test their own scripts Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
 	
-	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "250"></a>
+	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "350"></a>
 	
 ### Limitations and setbacks
 -	Students should bear in mind the differences between notebooks and scripting.
