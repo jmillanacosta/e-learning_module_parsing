@@ -32,7 +32,7 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 	<img src="files/tweak.png" width = "250">
 	
 	- Simple widgets that help reduce the complexity of a concept
-	-<img src="files/widget.png" width = "250">
+	-<img src="files/widget.png" width = "350">
 
 	
 - Notebook as a dashboard/app
@@ -63,7 +63,7 @@ Provide notebooks as downloadable files.
 ## References
 
 1.	Teaching and Learning with Jupyter. https://jupyter4edu.github.io/jupyter-edu-book/index.html.
-![image](https://user-images.githubusercontent.com/83466805/153851673-b37303b3-2676-4206-9cf5-f39c6194e6af.png)
+
 
 
 
