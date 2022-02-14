@@ -23,7 +23,7 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 ### Types of materials and exercises using Jupyter Notebooks
 - Worksheet
 	- Read and shift-enter materials/ Examples and counter-examples.
-	<img src="files/read_material.png">
+	<img src="files/read_material.png" width = "250">
 	- Fill in the blanks, run and reflect
 	
 	- Tweak parameters, run and reflect
