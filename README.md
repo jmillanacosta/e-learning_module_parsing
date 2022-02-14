@@ -40,7 +40,7 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 	
 - Notebook as a dashboard/app
 	- Standalone dashboards with a focus on tweaking and visualizing some model
-	- Interactive modules students can use to test their own scripts Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
+	- Interactive modules students can use to test their own scripts. Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
 	
 	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "350"></a>
 	
