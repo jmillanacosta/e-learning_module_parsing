@@ -19,13 +19,9 @@ def parse_regex(path, pattern):
     pattern: string with the regex pattern to match
     """
     with open(path, 'r') as f:
-        lines = f.readlines() # Creates a list of lines
-        matches = [] # Empty list to store all accession numbers
-        for line in lines:
-            match = re.findall(pattern, line) # Attempts to match pattern. 
-            if match:
-                matches.append(match) # Appends to the list the found matches in each line as a list
-    return matches
+        data = f.read()
+        match = re.findall(pattern, data) # Attempts to match pattern. 
+    return match
 
 
 def regex_widget(precedes, match, follows):
@@ -36,14 +32,16 @@ def regex_widget(precedes, match, follows):
     follows: pattern succeeding the match
     """
     path = "files/P3_argonaut.gb"
-    precedes = "(?<=" + precedes + ")"
-    follows = "(?=" + follows + ")"
+    if precedes != "":
+        precedes = "(?<=" + precedes + ")"
+    if follows != "":
+        follows = "(?=" + follows + ")"
     pattern = precedes + match + follows
     valid = False
     if pattern != "":
         try:
-            re.compile(pattern)
-            result = parse_regex(path, pattern)
+            re.compile("%s" % pattern)
+            result = parse_regex("%s" % path, pattern)
             valid = True
         except re.error:
             pass
