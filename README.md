@@ -32,10 +32,38 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 	<img src="files/tweak.png" width = "250">
 	
 	- Simple widgets that help reduce the complexity of a concept
-	Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
-	
-	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "250"></a>
+	-<img src="files/widget.png" width = "250">
+
 	
 - Notebook as a dashboard/app
 	- Standalone dashboards with a focus on tweaking and visualizing some model
-	- Interactive modules students can use to test their own scripts
+	- Interactive modules students can use to test their own scripts Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
+	
+	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "250"></a>
+	
+### Limitations and setbacks
+-	Students should bear in mind the differences between notebooks and scripting.
+-	How to make notebooks foolproof?
+	-	Introduce the functioning of notebooks and basic troubleshooting skills  (restarting kernel, rerunning previous cells…).
+	-	These aspects could be tackled as extra modules in the course materials
+
+### Implementability
+
+#### Integration in BrightSpace?
+Provide notebooks as downloadable files.
+
+#### Using GitLab for content delivery, teamwork and discussion
+-	Students would copy the repository with the course contents. 
+-	Familiarize students with Git from assignment 1. 
+-	Content delivery through a course repository, like in many online courses. 
+-	Useful for teamwork
+-	Students can use issues as a forum or to give feedback on the module.
+-	Integration with code grading tools like CodeGrade is possible.
+
+## References
+
+1.	Teaching and Learning with Jupyter. https://jupyter4edu.github.io/jupyter-edu-book/index.html.
+![image](https://user-images.githubusercontent.com/83466805/153851673-b37303b3-2676-4206-9cf5-f39c6194e6af.png)
+
+
+
