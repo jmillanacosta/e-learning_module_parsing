@@ -1,6 +1,6 @@
 # E-learning module development
 
-Example module: [Parsing strategies](Modules/"1. Parsing strategies"/"Parsing strategies.ipynb")
+Example module: <a href="https://github.com/jmillanacosta/e-learning_module_parsing/blob/main/Modules/1_Parsing_strategies/Parsing_strategies.ipynb">Parsing strategies</a>. Check requirements before running.
 
 ## Goals of a module
 - Guide the students through an assignment preparation/course content.
@@ -40,7 +40,7 @@ Mainly: use of Jupyter Notebooks (either in JupyterLab or VS)
 	
 - Notebook as a dashboard/app
 	- Standalone dashboards with a focus on tweaking and visualizing some model
-	- Interactive modules students can use to test their own scripts Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
+	- Interactive modules students can use to test their own scripts. Pictured: [Interactive Machine Learning](https://github.com/tirthajyoti/Interactive_Machine_Learning)
 	
 	<a href="https://github.com/tirthajyoti/Interactive_Machine_Learning"><img src="files/example_tirthajyoti.gif" width = "350"></a>
 	
